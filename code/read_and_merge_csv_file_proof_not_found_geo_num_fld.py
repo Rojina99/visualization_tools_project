@@ -90,7 +90,7 @@ intra_group_spacing = 0.01
 # Set the positions of the bars on the x-axis
 r = np.arange(len(categories))
 # Create subplots
-fig, axs = plt.subplots(1, 3, figsize=(30, 5))
+fig, axs = plt.subplots(1, 3, figsize=(30, 10))
 
 # Plot for 'MIN' values
 axs[0].bar(r - bar_width - intra_group_spacing, min_values_geo, color='#FF8C00', width=bar_width, edgecolor='grey', label='GEO')
@@ -223,7 +223,7 @@ max_values_fld_log = grouped_max_fld_log.values
 # Set the positions of the bars on the x-axis
 r = np.arange(len(categories))
 # Create subplots
-fig, axs = plt.subplots(1, 3, figsize=(30, 5))
+fig, axs = plt.subplots(1, 3, figsize=(30, 10))
 
 
 # Plot for 'MIN' values
